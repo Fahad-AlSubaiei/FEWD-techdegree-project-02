@@ -91,7 +91,7 @@ hr{
 }
 
 
-.name a,
+
 .main-nav a {
 	text-align: center;
 	display: block;
@@ -143,23 +143,29 @@ footer ul{
     padding-top: 16px;
 }
 
-@media (min-width: 769px) {
-    .leftbox{
+@media (min-width: 768px) {
+    
+    .marketing,
+    .travel,
+    .photo{
         float: left;
         width: 50%;
     }
-    .rightbox{
+    .search,
+    .map,
+    .calculator{
         float: right;
         width: 50%;
     }
+
 	.container {
 		width: 100%;
 		margin: 0 auto;
 	}
 
     h1{
-        padding-top: 70px;
-        padding-bottom: 15px;
+        padding-top: 55px;
+        padding-bottom: 0;
         font-size: 40px;
     }
 
@@ -181,7 +187,7 @@ footer ul{
 
     .container p{
         float: left;
-        padding: 130px 0px 15px 48px;
+        padding: 130px 0 15px 20px;
         /* border: 1px solid blue; */
         width: 59%;
         text-align: left;
@@ -191,7 +197,7 @@ footer ul{
     p{
         padding: 0 10px 40px;
         font-weight: 600;
-        font-size: 19px;
+        font-size: 15px;
     }
     h3{
         font-size: 24px;
@@ -200,8 +206,9 @@ footer ul{
         padding:14px 263px 20px;
     }
     nav h1{
-        padding-left: 65px;
+        padding-left: 55px;
         padding-top: 40px;
+        font-size: 25px;
     }
 
     .backTop {
@@ -222,9 +229,13 @@ footer ul{
         color: rgb(24, 23, 23);
         text-transform: uppercase;
         display: block;
-        padding: 20px;
+        font-size: 20px;
+        padding: 20px 20px 20px 0;
         margin-right: 30px;
         margin-top: 10px;
+    }
+    footer {
+        clear: both;
     }
 
 
@@ -236,4 +247,47 @@ footer ul{
 		clear: both;
 	}
 
+}
+
+@media (min-width:1024px){
+    .marketing,
+    .travel,
+    .map,
+    .calculator,
+    .photo,
+    .search{
+        float: left;
+        width: 33%;
+    }
+    a{
+      margin-right: 60px;  
+      font-size: 20px;
+      padding: 20px 20px 20px 0;
+    }
+    nav h1 {
+        padding-left: 80px;
+        padding-top: 36px;
+        font-size: 30px;
+    }
+    .container p{
+        padding: 85px 55px 15px 68px;
+    }
+    .main-nav {
+        width: 50%;
+        float: right;
+    }
+    .name {
+        float: left;
+        margin: 40px 60px;
+        padding: 10px;
+      }
+      .main-nav li{
+        margin:0;
+        }
+    .main-nav a {
+        display: block;
+        padding: 55px 30px 0 65px;
+        margin: 8px;
+        font-size: 23px;
+    }  
 }
