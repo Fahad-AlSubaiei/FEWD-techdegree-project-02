@@ -68,7 +68,7 @@ img{
 }
 hr{
     border-top: 1px solid lightgray;
-    width: 90%;
+    width: 95%;
 
 }
 
@@ -162,6 +162,7 @@ footer ul{
 
 
 
+
 @media (min-width: 768px) {
     
     .marketing,
@@ -242,7 +243,7 @@ footer ul{
     .col {
         min-height: 450px;
       }
-      
+
     footer ul{
         text-align: right;
     }
@@ -313,14 +314,20 @@ footer ul{
         margin: 8px;
         font-size: 1.2em;
     }
-    main{
-        width: 80%;
-        max-width: 1150px;
-        margin: auto;
-    }
+
      p {
         padding: 0 5px 40px;
         font-weight: 600;
         font-size: 13px;
+    }
+    main{
+        background-color: #fff;
+    }
+    body{
+        background: #F8F8F8;
+        padding: 0 20px;
+    }
+    h2{
+        padding-top: 50px;
     }
 }
