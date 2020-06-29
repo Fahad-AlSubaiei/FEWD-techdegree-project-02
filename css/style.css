@@ -239,6 +239,10 @@ footer ul{
         margin-right: 0;
         text-align: right;
     }
+    .col {
+        min-height: 450px;
+      }
+      
     footer ul{
         text-align: right;
     }
