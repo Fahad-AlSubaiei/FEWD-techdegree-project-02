@@ -3,6 +3,7 @@
 ==================================== */
 *{
     box-sizing: border-box;
+    
 }
 
 body{
@@ -66,7 +67,7 @@ img{
     padding: 0 40px 43px;
 }
 hr{
-    border-top: 1px line lightgray;
+    border-top: 1px solid lightgray;
     width: 90%;
 
 }
@@ -110,7 +111,7 @@ hr{
 }
 .main-footer {
     background: #F8F8F8 ;
-    padding: 2em 0;
+    padding: 2em 0 0;
     margin-top: 30px;
 }
 .contact{
@@ -126,22 +127,40 @@ hr{
 }
 .backTop{
     font-weight: bolder;
-    float: right;
-    padding: 10px 32px 0 15px;
-    font-size: 18px;
+    padding: 23px 20px 18px 15px;
+    font-size: 15px;
+    text-align: right;
+    display: inline-block;
 }
 nav h1{
+    text-align: left;
+    font-size: 17px;
+    padding-left: 17px;
+    padding-top: 20px;
+    width: 50%;
     float: left;
-    font-size: 21px;
-    padding-left: 30px;
-    padding-top: 22px;
 }
 .displaybottom{
     display: none;
 }
-footer ul{
-    padding-top: 16px;
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
 }
+footer ul{
+    text-align: right;
+}
+
+.container2 {
+    margin: 0 auto;
+    max-width: 1100px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 20px;
+}
+
+
 
 @media (min-width: 768px) {
     
@@ -200,7 +219,7 @@ footer ul{
         font-size: 15px;
     }
     h3{
-        font-size: 24px;
+        font-size: 21px;
     }
     .contact{
         padding:14px 263px 20px;
@@ -260,14 +279,14 @@ footer ul{
         width: 33%;
     }
     a{
-      margin-right: 60px;  
-      font-size: 20px;
-      padding: 20px 20px 20px 0;
+        margin-right: 60px;
+        font-size: 16px;
+        padding: 19px 0px 20px 8px;
     }
     nav h1 {
-        padding-left: 80px;
-        padding-top: 36px;
-        font-size: 30px;
+        padding-left: 57px;
+        padding-top: 18px;
+        font-size: 26px;
     }
     .container p{
         padding: 85px 55px 15px 68px;
@@ -286,8 +305,18 @@ footer ul{
         }
     .main-nav a {
         display: block;
-        padding: 55px 30px 0 65px;
+        padding: 58px 0px 0 38px;
         margin: 8px;
-        font-size: 23px;
-    }  
+        font-size: 1.2em;
+    }
+    main{
+        width: 80%;
+        max-width: 1150px;
+        margin: auto;
+    }
+     p {
+        padding: 0 5px 40px;
+        font-weight: 600;
+        font-size: 13px;
+    }
 }
