@@ -226,7 +226,7 @@ footer ul{
     }
     nav h1{
         padding-left: 55px;
-        padding-top: 40px;
+        padding-top: 25px;
         font-size: 25px;
     }
 
@@ -248,8 +248,8 @@ footer ul{
         color: rgb(24, 23, 23);
         text-transform: uppercase;
         display: block;
-        font-size: 20px;
-        padding: 20px 20px 20px 0;
+        font-size: 19px;
+        padding: 20px 10px 20px 0;
         margin-right: 30px;
         margin-top: 10px;
     }
